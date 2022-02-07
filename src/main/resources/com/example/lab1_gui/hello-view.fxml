@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" onMouseClicked="#onVBoxClick" prefHeight="319.0" prefWidth="136.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab1_gui.HelloController">
+    <Label fx:id="clues" text="Clues">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font></Label>
+    <Button fx:id="b1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0">
+      <opaqueInsets>
+         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+      </opaqueInsets></Button>
+   <Button fx:id="b2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0">
+      <opaqueInsets>
+         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+      </opaqueInsets></Button>
+   <Button fx:id="b3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0">
+      <opaqueInsets>
+         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+      </opaqueInsets></Button>
+   <Button fx:id="b4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0">
+      <opaqueInsets>
+         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+      </opaqueInsets></Button>
+   <Button fx:id="b5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0">
+      <opaqueInsets>
+         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+      </opaqueInsets></Button>
+</VBox>
